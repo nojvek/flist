@@ -3,3 +3,7 @@ set("i" 3)
 while(!=(i 0) print(i) --(i))
 set("i" 0)
 while(!=(i 10) print(i) ++(i))
+
+
+["if ["==" 1 1] "equal" "not equal"]
+["set" "i" 3]
