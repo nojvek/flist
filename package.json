@@ -1,0 +1,25 @@
+{
+  "name": "flist",
+  "version": "1.0.0",
+  "description": "Simple language built from fn(arg1 arg2 ...) expressions",
+  "main": "src/index.ts",
+  "scripts": {
+    "ts": "node -r esbuild-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nojvek/flist.git"
+  },
+  "author": "nojvek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nojvek/flist/issues"
+  },
+  "homepage": "https://github.com/nojvek/flist#readme",
+  "devDependencies": {
+    "@types/node": "18.7.18",
+    "esbuild": "0.15.8",
+    "esbuild-register": "3.3.3",
+    "typescript": "4.8.3"
+  }
+}
